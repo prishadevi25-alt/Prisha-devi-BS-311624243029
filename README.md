@@ -1,31 +1,20 @@
-Team Members and Responsibilities
+# Streamlining IT Procurement: Automating Standard Laptop Orders with Flow Designer
 
-1. Badru Nisha – Team Member
+A ServiceNow solution that streamlines IT hardware procurement using Flow Designer. When a Standard Laptop request is approved, the flow automatically creates a Catalog Task and assigns it to the Hardware team for configuration.
 
-Create a Flow – Milestone 1
+## Team Details
 
-GitHub Repository: [https://github.com/USERNAME/REPOSITORY-NAME](https://github.com/prishadevi25-alt/Badru-Nisha-311624243004)
+| Role | Name |
+|------|------|
+| Team ID | SWTID-2026-8854 |
+| Team Leader | B S Prisha Devi |
+| Team Member | Kalivela Rakshana |
+| Team Member | S Rethika |
+| Team Member | Badru Nisha B |
+| Team Member | Afreen Jamil J |
 
+## Tools
+ServiceNow (Flow Designer, Service Catalog), SkillWallet
 
-
-2. BS Prisha Devi – Team Leader
-
-Flow Assignment to Stakeholder – Milestone 2
-
-GitHub Repository: https://github.com/USERNAME/REPOSITORY-NAME
-
-
-
-3. S Rethika– Team Member
-
-Service Catalog for Place – Milestone 3
-
-GitHub Repository: https://github.com/prishadevi25-alt/Rethika-S-311624243032
-
-
-
-4. Kalivela Rakshana – Team Member
-
-Project Conclusion – Conclusion
-
-GitHub Repository: https://github.com/USERNAME/REPOSITORY-NAME
+## Repository Contents
+Phase-wise documentation: ideation (brainstorming, empathy map, problem statement), requirement analysis, project design (solution architecture, tech stack), project planning, UAT and final report.
