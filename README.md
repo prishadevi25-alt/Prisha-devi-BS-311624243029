@@ -20,7 +20,7 @@ GitHub Repository: https://github.com/USERNAME/REPOSITORY-NAME
 
 Service Catalog for Place – Milestone 3
 
-GitHub Repository: https://github.com/USERNAME/REPOSITORY-NAME
+GitHub Repository: https://github.com/prishadevi25-alt/Rethika-S-311624243032
 
 
 
