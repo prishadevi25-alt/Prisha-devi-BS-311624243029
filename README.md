@@ -1,20 +1,39 @@
+```
 # Streamlining IT Procurement: Automating Standard Laptop Orders with Flow Designer
 
-A ServiceNow solution that streamlines IT hardware procurement using Flow Designer. When a Standard Laptop request is approved, the flow automatically creates a Catalog Task and assigns it to the Hardware team for configuration.
+## Project Description
+The Standard Laptop Procurement Automation project is a ServiceNow solution designed to streamline the IT hardware procurement process using Flow Designer. The project automates the creation of a Catalog Task when a Standard Laptop request is approved and assigns the task to the Hardware team for configuration.
 
-## Team Details
+## Problem
+Manual handling of laptop requests is slow and error-prone. After a request is approved, someone has to create and assign the follow-up task by hand, which delays delivery and can lead to missed or misrouted requests.
 
-| Role | Name |
-|------|------|
-| Team ID | SWTID-2026-8854 |
-| Team Leader | B S Prisha Devi |
-| Team Member | Kalivela Rakshana |
-| Team Member | S Rethika |
-| Team Member | Badru Nisha B |
-| Team Member | Afreen Jamil J |
+## Solution
+A Flow Designer flow that runs automatically once a Standard Laptop request is approved. It creates a Catalog Task and assigns it to the Hardware group, so the team can start configuring the laptop without manual hand-offs.
 
-## Tools
-ServiceNow (Flow Designer, Service Catalog), SkillWallet
+## How It Works
+1. A user orders a Standard Laptop from the Service Catalog (Hardware category).
+2. The request goes through approval.
+3. On approval, the flow is triggered (Service Catalog trigger).
+4. The flow runs the Create Catalog Task action.
+5. The task is assigned to the Hardware assignment group for configuration.
+
+## Implementation Steps
+- Milestone 1: Create the flow "Standard laptop task" with a Service Catalog trigger and a Create Catalog Task action, with the assignment group set to Hardware.
+- Milestone 2: Attach the flow to the "Standard Laptop" catalog item using the Process Engine.
+- Milestone 3: Order the laptop from Service Catalog > Hardware, approve the request, and verify that the catalog task is created and assigned.
+
+## Technologies Used
+- ServiceNow
+- Flow Designer
+- Service Catalog
+- SkillWallet
+
+## Benefits
+- Faster processing of approved laptop requests
+- Less manual work and fewer errors
+- Clear ownership of each task through automatic assignment to the Hardware team
+- A consistent, repeatable procurement process
 
 ## Repository Contents
-Phase-wise documentation: ideation (brainstorming, empathy map, problem statement), requirement analysis, project design (solution architecture, tech stack), project planning, UAT and final report.
+Phase-wise project documentation: ideation, requirement analysis, project design, project planning, testing (UAT) and the final report.
+```
